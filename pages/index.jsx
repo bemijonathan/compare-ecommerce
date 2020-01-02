@@ -45,9 +45,9 @@ function HomePage() {
                 </div>
             </div>
             <div className="bg-green-300 text-center p-10">
-                Make Your Single Search
-                <button className="bg-white text-lg p-3 rounded-lg ml-10 hover:text-white hover:bg-green-500">
-                     Now and Get Results
+                <input type="search" placeholder="handbags" className="bg-white text-lg px-3 py-2 rounded-lg"/>
+                <button className="bg-white text-lg px-3 py-2 rounded-lg ml-5 hover:text-white hover:bg-green-500">
+                     Search
                 </button>
             </div>
             <Footer/>

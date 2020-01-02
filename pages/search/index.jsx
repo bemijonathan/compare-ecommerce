@@ -3,8 +3,9 @@ import Nav from '../../components/navbar';
 import "../../components/index.css"
 import Footer from '../../components/footer'
 import Frame from '../../components/frame'
+import {withRouter} from 'next/router'
 
-export default class SearchComponent extends Component {
+class SearchComponent extends Component {
   state = {
     term: '',
     site1: true,
@@ -23,6 +24,9 @@ export default class SearchComponent extends Component {
       })
       console.log(this.state)
     }
+    const searchValue = () => {
+      this.props.router.push(`/search?term=${this.state.term}&page=0`)
+    }
     return (
       <>
         <div>
@@ -35,7 +39,7 @@ export default class SearchComponent extends Component {
           <input type="checkbox" name="" id="" className="ml-3" disabled /> OLX Nigeria
           <input type="checkbox" name="" id="" className="ml-3" disabled /> Jiji
           <input type="checkbox" name="" id="" className="ml-3" disabled /> Alibaba
-          <button className="bg-white rounded-lg py-1 px-3 ml-5"> Search </button>
+          <button className="bg-white rounded-lg py-1 px-3 ml-5" onClick={searchValue}> Search </button>
           </div>
           <section className="min-h-screen bg-green-200 flex flex-wrap ">
             <section className="h-100 flex-1">
@@ -81,3 +85,6 @@ export default class SearchComponent extends Component {
     )
   }
 }
+
+
+export default withRouter(SearchComponent)
