@@ -31,31 +31,27 @@ class SearchComponent extends Component {
       <>
         <div>
           <Nav />
-          <div className="bg-green-700 p-4 text-center flex sm:flex-wrap justify-center items-center">
-            <input type="text" name="" placeholder="what item are you searching for" onInput={getValue} id="" className="bg-white mr-3 rounded-lg py-1 px-3" />
+          <div className="bg-green-700 p-4 text-center flex flex-wrap lg:flex-nowrap justify-center items-center">
+            <input type="text" name="" placeholder="what item are you searching for" onInput={getValue} id="" className="bg-white lg:mr-3 m-3  rounded-lg py-1 px-3 lg:w-auto w-full" />
             <input type="checkbox" id="" className="ml-3" checked /> Jumia
           <input type="checkbox" className="ml-3" checked /> Konga
           <input type="checkbox" name="" id="" className="ml-3" disabled /> Amazon
           <input type="checkbox" name="" id="" className="ml-3" disabled /> OLX Nigeria
           <input type="checkbox" name="" id="" className="ml-3" disabled /> Jiji
           <input type="checkbox" name="" id="" className="ml-3" disabled /> Alibaba
-          <button className="bg-white rounded-lg py-1 px-3 ml-5" onClick={searchValue}> Search </button>
+          <button className="bg-white rounded-lg py-1 px-3 lg:ml-5 m-0 w-1/2 lg:w-auto" onClick={searchValue}> Search </button>
           </div>
-          <section className="min-h-screen bg-green-200 flex flex-wrap ">
+          <section className="min-h-screen bg-green-200 flex">
             <section className="h-100 flex-1">
               <h1 className="text-center text-lg pt-3"> Jumia </h1>
-              <div className="flex justify-center item-center mt-20">
-                <div id="button"></div >
-              </div>
+              
               <div>
                 <Frame type={'jumia'}/>
               </div>
             </section>
             <section className="flex-1">
               <h1 className="text-center text-lg pt-3"> Konga </h1>
-              <div className="flex justify-center item-center mt-20">
-                <div id="button"></div >
-              </div>
+            
               <div>
                 <Frame type={'konga'}/>
               </div>
@@ -63,23 +59,7 @@ class SearchComponent extends Component {
           </section>
           <Footer />
 
-          <style jsx>{`
-            #button {
-              height: 40px;
-              width: 40px;
-              background: transparent;
-              border-radius: 50%;
-              border: 1px solid white;
-              border-top: 2px solid green;
-              animation: spinner1 600ms linear infinite;
-            }
-            @keyframes spinner1 {
-              to {
-                transform: rotate(360deg);
-              }
-            }
-          `}
-        </style>
+          
         </div>
       </>
     )

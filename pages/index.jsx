@@ -19,7 +19,7 @@ function HomePage() {
                     <p> 
                     
                         <button className="bg-white text-black text-lg p-3 rounded-lg mr-10 hover:bg-green-700 hover:text-white">
-                            <Link href="/search"> Get started Now </Link>
+                            <Link href="/search?term=&page=0"> Get started Now </Link>
                         </button>
                         <button className="bg-green-700 text-white text-lg p-3 rounded-lg">
                             How It works
