@@ -1,38 +1,38 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_4b8bef20edde04f98d3f.js",
-    "static/development/dll/dll_4b8bef20edde04f98d3f.js.map"
-  ],
+  "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.588695cd.chunk.css",
+      "static/chunks/commons.15be52e5762e0c99b128.js",
+      "static/runtime/main-3fa7423c53586e38c88a.js"
     ],
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.588695cd.chunk.css",
+      "static/chunks/commons.15be52e5762e0c99b128.js",
+      "static/runtime/main-3fa7423c53586e38c88a.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.588695cd.chunk.css",
+      "static/chunks/commons.15be52e5762e0c99b128.js",
+      "static/runtime/main-3fa7423c53586e38c88a.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills.js",
-      "static/runtime/polyfills.js.map"
+      "static/runtime/polyfills-98369e6bf5d55011ba72.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.588695cd.chunk.css",
+      "static/chunks/commons.15be52e5762e0c99b128.js",
+      "static/runtime/main-3fa7423c53586e38c88a.js"
     ],
     "/search": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.588695cd.chunk.css",
+      "static/chunks/commons.15be52e5762e0c99b128.js",
+      "static/runtime/main-3fa7423c53586e38c88a.js"
     ]
   }
 }

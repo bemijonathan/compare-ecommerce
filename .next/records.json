@@ -1,0 +1,66 @@
+{
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!components/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!components/index.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/runtime/webpack.js": 0,
+      "commons": 1,
+      "static/jvEY1k7dEMaUCYWP2Bwjl/pages/_app.js": 2,
+      "static/jvEY1k7dEMaUCYWP2Bwjl/pages/_error.js": 3,
+      "static/jvEY1k7dEMaUCYWP2Bwjl/pages/index.js": 4,
+      "static/jvEY1k7dEMaUCYWP2Bwjl/pages/search.js": 5,
+      "static/runtime/main.js": 6,
+      "static/runtime/polyfills.js": 7,
+      "static/RBLwYfiGHsme7d2Xn-wFb/pages/_app.js": 8,
+      "static/RBLwYfiGHsme7d2Xn-wFb/pages/_error.js": 9,
+      "static/RBLwYfiGHsme7d2Xn-wFb/pages/index.js": 10,
+      "static/RBLwYfiGHsme7d2Xn-wFb/pages/search.js": 11,
+      "static/mdN3Y-zdCEfrxS47zFmGT/pages/_app.js": 2,
+      "static/mdN3Y-zdCEfrxS47zFmGT/pages/_error.js": 3,
+      "static/mdN3Y-zdCEfrxS47zFmGT/pages/index.js": 4,
+      "static/mdN3Y-zdCEfrxS47zFmGT/pages/search.js": 5,
+      "static/VYuZlvC-1yyR_4REjhSo6/pages/_app.js": 8,
+      "static/VYuZlvC-1yyR_4REjhSo6/pages/_error.js": 9,
+      "static/VYuZlvC-1yyR_4REjhSo6/pages/index.js": 10,
+      "static/VYuZlvC-1yyR_4REjhSo6/pages/search.js": 11,
+      "static/E3G50KswnmaxEHEgpFCF4/pages/_app.js": 2,
+      "static/E3G50KswnmaxEHEgpFCF4/pages/_error.js": 3,
+      "static/E3G50KswnmaxEHEgpFCF4/pages/index.js": 4,
+      "static/E3G50KswnmaxEHEgpFCF4/pages/search.js": 5
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}
