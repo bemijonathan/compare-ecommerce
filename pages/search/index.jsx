@@ -41,7 +41,7 @@ class SearchComponent extends Component {
           <input type="checkbox" name="" id="" className="ml-3" disabled /> Alibaba
           <button className="bg-white rounded-lg py-1 px-3 lg:ml-5 m-0 w-1/2 lg:w-auto" onClick={searchValue}> Search </button>
           </div>
-          <section className="min-h-screen bg-green-200 flex">
+          <section className="min-h-screen flex">
             <section className="h-100 flex-1">
               <h1 className="text-center text-lg pt-3"> Jumia </h1>
               
@@ -58,13 +58,10 @@ class SearchComponent extends Component {
             </section>
           </section>
           <Footer />
-
-          
         </div>
       </>
     )
   }
 }
-
 
 export default withRouter(SearchComponent)

@@ -417,14 +417,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class componentName extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-      className: "flex justify-between bg-blue-100 items-center p-2",
+      className: "flex justify-between items-center p-2",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 7
       },
       __self: this
-    }, __jsx("h1", {
+    }, __jsx("a", {
       className: "",
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 8
@@ -457,14 +458,7 @@ class componentName extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 11
       },
       __self: this
-    }, "Join Us"), __jsx("li", {
-      className: "m-2",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }, "Developers"))));
+    }, "Join Us"))));
   }
 
 }
@@ -675,7 +669,7 @@ class SearchComponent extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       },
       __self: this
     }, " Search ")), __jsx("section", {
-      className: "min-h-screen bg-green-200 flex",
+      className: "min-h-screen flex",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 44
